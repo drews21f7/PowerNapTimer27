@@ -12,6 +12,7 @@
 		3AFE696622B947B900BF8D4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AFE696422B947B900BF8D4C /* Main.storyboard */; };
 		3AFE696822B947BA00BF8D4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AFE696722B947BA00BF8D4C /* Assets.xcassets */; };
 		3AFE696B22B947BA00BF8D4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AFE696922B947BA00BF8D4C /* LaunchScreen.storyboard */; };
+		3AFE697622B94F2200BF8D4C /* MyTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE697522B94F2200BF8D4C /* MyTimer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		3AFE696722B947BA00BF8D4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3AFE696A22B947BA00BF8D4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3AFE696C22B947BA00BF8D4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AFE697522B94F2200BF8D4C /* MyTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTimer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		3AFE695F22B947B900BF8D4C /* PowerNapTimer27 */ = {
 			isa = PBXGroup;
 			children = (
+				3AFE697722B94F2800BF8D4C /* Models */,
 				3AFE697422B94D5000BF8D4C /* Views */,
 				3AFE697322B94D4600BF8D4C /* View Controllers */,
 				3AFE697222B94D3A00BF8D4C /* Resources */,
@@ -86,6 +89,14 @@
 				3AFE696422B947B900BF8D4C /* Main.storyboard */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		3AFE697722B94F2800BF8D4C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3AFE697522B94F2200BF8D4C /* MyTimer.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3AFE696322B947B900BF8D4C /* ViewController.swift in Sources */,
+				3AFE697622B94F2200BF8D4C /* MyTimer.swift in Sources */,
 				3AFE696122B947B900BF8D4C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
